@@ -12,9 +12,11 @@ public class Vehicle {
     private String model;
     private String customerName;
     private String fuelType;
+    private String VehicleType;
     private Boolean hired = false;
     private int price;
     private LocalDate hireEndDate;
+
 
     public Vehicle(String registration, String make, String model, String fuelType) {
         this.registration = registration;
@@ -33,6 +35,10 @@ public class Vehicle {
         hireEndDate = endDate;
         Customer customer = new Customer();
         customer.setCustomerName(cstName);
+    }
+
+    public String getVehicleType() {
+        return VehicleType;
     }
 
     public String getRegistration() {

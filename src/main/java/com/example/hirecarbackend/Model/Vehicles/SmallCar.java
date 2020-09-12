@@ -9,4 +9,9 @@ public class SmallCar extends Vehicle {
     public int getPrice() {
         return 25;
     }
+
+    @Override
+    public String getVehicleType() {
+        return "Small Car";
+    }
 }

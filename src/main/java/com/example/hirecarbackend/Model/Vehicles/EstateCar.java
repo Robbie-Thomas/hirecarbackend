@@ -9,4 +9,9 @@ public class EstateCar extends Vehicle {
     public int getPrice() {
         return 35;
     }
+
+    @Override
+    public String getVehicleType() {
+        return "Estate Car";
+    }
 }

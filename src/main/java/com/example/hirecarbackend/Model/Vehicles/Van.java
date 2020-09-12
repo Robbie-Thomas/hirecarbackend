@@ -9,4 +9,9 @@ public class Van extends Vehicle {
     public int getPrice() {
         return 50;
     }
+
+    @Override
+    public String getVehicleType() {
+        return "Van";
+    }
 }
